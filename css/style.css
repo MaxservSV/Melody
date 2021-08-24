@@ -84,6 +84,7 @@ body{
 path.current-floor{
     opacity: 0.75;
 }
+
 .counter-group{
     display: flex;
     flex-direction: column;
@@ -162,7 +163,7 @@ path.current-floor{
     opacity: 0;
 }
 .flats path:hover{
-    opacity: 1;
+    opacity: 0.75; 
 }
 .modal-title{
     font-family: "Bebas Neue",sans-serif;
@@ -193,6 +194,13 @@ path.current-floor{
 .flat-link:hover{
     text-decoration-line: underline;
     color: #3596F5;
+}
+path.current-flat{
+    opacity: 0.75;
+}
+a.current-flat-pic{
+    text-decoration-line: underline;
+    color: #3596F5;  
 }
 .modal-alert{
     font-style: italic;
